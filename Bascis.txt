@@ -1,0 +1,57 @@
+/******* What is PostgreSQL? *******/
+PostgreSQL is an object-relational database management system (ORDBMS) based on POSTGRES, Version 4.2, developed at the University of California at Berkeley Computer Science Department. POSTGRES pioneered many concepts that only became available in some commercial database systems much later.
+
+/******* What is a Database? *******/
+An organized collection of data. A method to manipulate and access data. 
+
+/******* Database vs. DBMS(Data Base Management System)? *******/
+DBMS si like Between your App and database that manage your database. For example Oracle, MySQL and postgreSQL etc.   
+
+/******* What is RDBMS (Relatoional Database Management System)? *******/
+A type of database that stores data in structured way including table and postgreSQl for managing and quering data.
+
+/******* Some Other Databases are:- *******/
+1) Oracle 
+2) MongoDB
+3) MySQL 
+4) SQLite
+5) MaxDB
+6) Firebase 
+7) Redis etc.
+
+/******* SQL vs PostgreSQL:- *******/
+SQL is a language used to talk to our database.
+Example: SELECT * FROM person_db;
+PostgreSQL is a databse that use SQL language.
+
+/******* SQL vs PostgreSQL:- *******/
+Database:- 
+How to create a database?
+Run the following Command on PSQl terminal.
+CREATE DATABASE <dbname>;
+
+How to connect to a database?
+Run the following Command on PSQl terminal.
+\c <dbname>;
+
+How to list all existing database?
+Run the following Command on PSQl terminal.
+\l;
+
+How to list all drop database?
+Run the following Command on PSQl terminal.
+DROP DATABASE <db_name>;;
+
+How to Change database?
+Run the following Command on PSQl terminal.
+\c <dbname>;
+
+/******* Some important commands to keep in mind:- *******/
+\l         - list all databases
+\q         - quit
+\c db_name - connect to database
+\dt        - list all tables
+\d tb_name - desc a table
+\d+ tb_name- list all column
+\! cls.    - list all column
+
