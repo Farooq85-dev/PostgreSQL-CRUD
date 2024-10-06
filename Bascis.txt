@@ -55,3 +55,35 @@ Run the following Command on PSQl terminal.
 \d+ tb_name- list all column
 \! cls.    - list all column
 
+/******* CRUD:- *******/
+
+NOTE:- Please insert semi colons at the end of every command.
+
+CREATING Tables
+A table is a collect ion of related data
+held in a table format wi thin a database.
+
+Creating a new Table
+CREATE TABLE users (id INT, name VARCHAR(100));
+Checking your table
+<d <table_name>;
+
+INSERTING Data
+INSERT INTO person(id, name, city)
+VALUES (101,
+‘Raju’
+,
+‘Delhi’);
+
+INSERT INTO students VALUES (101,
+"Rahul");
+
+READING DATA
+SELECT * FROM <table_name>;
+SELECT <column_name> FROM students;
+
+UPDATING DATA
+UPDATE <table_name> SET name = "Farooq" WHERE id = 101;
+
+DELETING DATA
+DELETE FROM <table_name> WHERE id = 101;
